@@ -1,3 +1,26 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+#
+#  discord bot.py
+#  
+#  Copyright 2020 Victor <victor@victor-linux>
+#  
+#  This program is free software; you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation; either version 2 of the License, or
+#  (at your option) any later version.
+#  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#  
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+#  MA 02110-1301, USA.
+#  
+#  
 import discord
 from random import randint
 import time
@@ -8,14 +31,8 @@ stahp = False
 echoNum = 0
 urself = False
 remember = ""
-AtTag = {"<@!429723673671368705>": "Liftyee#6981", "<@!688028531560677416>": "織田 信長#0927", "<@!303547041064419328>": "amri123#5069", "<@!710197292677726239>": "Spamri123#2899", "<@!586853696198017024>": "D17381#0757", "<@!492775574310354965>": "Nawdy#2021", "<@!710188954837844060>": "Liftyee Not Bot#6729"}
-board =[["0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
-        ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
-        ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
-        ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
-        ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
-        ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
-        ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0"]]
+AtTag = {"<@!710197292677726239>": "Spamri123#2899"}
+#enter here @ and user names of people in server
 
 client = discord.Client()
 
