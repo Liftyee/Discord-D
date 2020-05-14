@@ -77,8 +77,6 @@ async def on_message(message):
 	if message.content.startswith('yee'):
 		await message.channel.send('yeet')
 	
-	if message.content.startswith('@Liftyee Not Bot#6729'):
-		await message.channel.send("that's me!"	)
 	if message.content.startswith("/spam"):
 		message2 = message.content.split("_")
 		#if message2[1] != '234050':
